@@ -14,7 +14,6 @@ namespace ConsoleApp5
             DeviceService.SendMessageAsync(deviceClient).GetAwaiter();
 
             Console.ReadKey();
-            Console.Write("hejsan");
             
         }
     }
